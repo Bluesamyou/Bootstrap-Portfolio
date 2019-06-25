@@ -26,7 +26,7 @@ hr {
 }
 
 section.about-me-section{
-    height: 300px;
+    height: 150%;
 }
 
 nav {
@@ -73,6 +73,7 @@ ul {
 
   h2 {
       color: #4aaaa5;
+      padding-top: 20px;
   }
 
 #personal-image{
@@ -85,6 +86,7 @@ ul {
 div.wrapper {
     width: 90%;
     margin: 0px auto;
+    padding-bottom: 20px;
 }
 
 label {
