@@ -110,7 +110,7 @@ textarea{
 
 footer {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     text-align: center;
     background-color: grey;
@@ -153,5 +153,7 @@ button:hover {
     text-align: center;
     position: relative;
     bottom: 85px;
+    right: 20px;
     opacity: 0.9;
+    width: 13rem;
 }

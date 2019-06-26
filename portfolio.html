@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>About me</title>
@@ -33,40 +36,55 @@
         </div>
     </nav>
 
-    <section>
+    <section class="container">
         <div class="wrapper">
-            <h2>Portfolio</h2>
-
+            <div class="row">
+                <div class="col-12">
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
             <hr>
-
-            <div class="card">
-                <img src="./assets/images/iphonex.jpg" alt="iphone apps image" class="card-image">
-                <p class="card-desc">Iphone Apps</p>
+            <div class="card" style="width: 13rem;">
+                <img src="./assets/images/iphonex.jpg" class="card-img-top" alt="iphone image" height="150" width="300">
+                <div class="card-body">
+                    <p class="card-desc">Iphone Apps</p>
+                </div>
+            </div>
+            <div class="card" style="width: 13rem;">
+                <img src="./assets/images/graphics.jpg" class="card-img-top" alt="graphic design image" height="150"
+                    width="300">
+                <div class="card-body">
+                    <p class="card-desc">Graphics Design</p>
+                </div>
+            </div>
+            <div class="card" style="width: 13rem;">
+                <img src="./assets/images/code.jpg" class="card-img-top" alt="web apps image" height="150" width="300">
+                <div class="card-body">
+                    <p class="card-desc">Web Apps</p>
+                </div>
+            </div>
+            <div class="card" style="width: 13rem;">
+                <img src="./assets/images/game.jpg" class="card-img-top" alt="unity games image" height="150"
+                    width="300">
+                <div class="card-body">
+                    <p class="card-desc">Unity Games</p>
+                </div>
             </div>
 
-            <div class="card">
-                <img src="./assets/images/graphics.jpg" alt="graphic design image" class="card-image">
-                <p class="card-desc">Graphics Design</p>
+            <div class="card" style="width: 13rem;">
+                <img src="./assets/images/android.jpg" class="card-img-top" alt="android apps image" height="150"
+                    width="300">
+                <div class="card-body">
+                    <p class="card-desc">Android apps</p>
+                </div>
             </div>
 
-            <div class="card">
-                <img src="./assets/images/code.jpg" alt="web apps image" class="card-image">
-                <p class="card-desc">Web Apps</p>
-            </div>
-
-            <div class="card">
-                <img src="./assets/images/game.jpg" alt="unity games image" class="card-image">
-                <p class="card-desc">Unity Games</p>
-            </div>
-
-            <div class="card">
-                <img src="./assets/images/android.jpg" alt="android apps image" class="card-image">
-                <p class="card-desc">Android Apps</p>
-            </div>
-
-            <div class="card">
-                <img src="./assets/images/animation.jpg" alt="animations image" class="card-image">
-                <p class="card-desc">Animations</p>
+            <div class="card" style="width: 13rem;">
+                <img src="./assets/images/animation.jpg" class="card-img-top" alt="animation image" height="150"
+                    width="300">
+                <div class="card-body">
+                    <p class="card-desc">Animations</p>
+                </div>
             </div>
         </div>
     </section>
